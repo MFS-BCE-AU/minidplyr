@@ -2,15 +2,23 @@
 % Please edit documentation in R/test.R
 \name{test}
 \alias{test}
-\title{Title}
+\title{My first function}
 \usage{
 test(x, y)
 }
 \arguments{
-\item{x}{}
+\item{x}{number1 or vector or data frame}
 
-\item{y}{}
+\item{y}{number2 or vector or data frame}
+}
+\value{
+The sum of x and y
 }
 \description{
-Title
+Sum to variables
+Not so much to explain...
+}
+\examples{
+test(4, 5)
+test(1:4, 3:6)
 }
